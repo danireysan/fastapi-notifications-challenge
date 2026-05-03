@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import Generic, TypeVar, Any
 
-from core.domain.failure import Failure
 from core.domain.result import Result
 
 T = TypeVar("T", bound=object)
